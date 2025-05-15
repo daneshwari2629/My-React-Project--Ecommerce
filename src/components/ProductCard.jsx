@@ -60,7 +60,7 @@ export default function ProductCard({ product }) {
     };
 
     const buttonStyle = {
-        backgroundColor: "#FF5722", // standard orange for action
+        backgroundColor: "#8A2BE2", // standard orange for action
         color: "#fff",
         border: "none",
         padding: "12px 0",

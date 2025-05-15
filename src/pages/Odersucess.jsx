@@ -16,30 +16,33 @@ export default function Ordersuccess() {
             alignItems: "center",
             height: "100vh",
             textAlign: "center",
-            backgroundColor: "#f5f5f5",
+            backgroundColor: "#1a1a2e", // dark background
             padding: "20px",
-            fontFamily: "'Segoe UI', sans-serif"
+            fontFamily: "'Segoe UI', sans-serif",
+            color: "#e0e0e0"
         },
         title: {
-            fontSize: "2.5rem",
-            color: "#4CAF50",
-            marginBottom: "20px"
+            fontSize: "2.8rem",
+            color: "#DA70D6", // orchid
+            marginBottom: "20px",
+            textShadow: "0 0 10px #8A2BE2, 0 0 20px #8A2BE2" // glowing violet
         },
         message: {
-            fontSize: "1.2rem",
-            color: "#333",
+            fontSize: "1.4rem",
+            color: "#b0c4de", // light neon blue
             marginBottom: "30px"
         },
         button: {
-            padding: "12px 25px",
-            fontSize: "1rem",
-            backgroundColor: "#4CAF50",
-            color: "#fff",
+            padding: "14px 30px",
+            fontSize: "1.1rem",
+            backgroundColor: "#00FFFF", // neon cyan
+            color: "#1a1a2e",
             border: "none",
-            borderRadius: "6px",
+            borderRadius: "8px",
             cursor: "pointer",
-            transition: "background 0.3s ease",
-            textDecoration: "none"
+            textDecoration: "none",
+            boxShadow: "0 0 12px #00FFFF",
+            transition: "all 0.3s ease"
         }
     };
 

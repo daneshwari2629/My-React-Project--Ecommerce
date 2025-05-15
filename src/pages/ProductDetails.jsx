@@ -13,43 +13,46 @@ export default function ProductsDetails() {
             maxWidth: "800px",
             margin: "50px auto",
             padding: "30px",
-            boxShadow: "0 4px 12px rgba(0, 0, 0, 0.1)",
-            borderRadius: "12px",
-            backgroundColor: "#fff",
+            boxShadow: "0 0 20px rgba(138, 43, 226, 0.5)", // violet glow
+            borderRadius: "15px",
+            backgroundColor: "#1a1a2e", // dark base for neon
             fontFamily: "'Segoe UI', sans-serif",
-            textAlign: "center"
+            textAlign: "center",
+            color: "#e0e0e0", // general text color
         },
         image: {
             maxWidth: "100%",
             height: "auto",
             borderRadius: "10px",
-            marginBottom: "20px"
+            marginBottom: "20px",
+            boxShadow: "0 0 15px #8A2BE2" // violet glow
         },
         name: {
-            fontSize: "2rem",
+            fontSize: "2.2rem",
             marginBottom: "10px",
-            color: "#333"
+            color: "#DA70D6" // orchid pink
         },
         description: {
-            fontSize: "1.1rem",
+            fontSize: "1.2rem",
             marginBottom: "15px",
-            color: "#555"
+            color: "#b0c4de" // soft neon blue
         },
         price: {
-            fontSize: "1.3rem",
+            fontSize: "1.5rem",
             fontWeight: "bold",
-            color: "green",
+            color: "#39FF14", // neon green
             marginBottom: "20px"
         },
         button: {
-            padding: "12px 25px",
-            fontSize: "1rem",
-            backgroundColor: "#4CAF50",
-            color: "#fff",
+            padding: "14px 30px",
+            fontSize: "1.1rem",
+            backgroundColor: "#00FFFF", // neon cyan
+            color: "#1a1a2e",
             border: "none",
-            borderRadius: "6px",
+            borderRadius: "8px",
             cursor: "pointer",
-            transition: "background 0.3s ease"
+            boxShadow: "0 0 12px #00FFFF",
+            transition: "all 0.3s ease",
         }
     };
 
